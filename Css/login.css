@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Federant&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root{
+    --backgroundcolor:black;
+    --orange: orange;
+    --textColor: white;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+header{
+    text-align: center;
+    padding: .7rem;
+    background-color: var(--backgroundcolor);
+    width: 100%;
+    color: var(--textColor);
+    border-bottom: 1px solid var(--textColor);
+    padding-bottom: 1rem;
+}
+header h2{
+    font-size: 3rem;
+}
+header h2::first-letter{
+    font-family: 'Faster One', cursive;
+    font-size: 4rem;
+    color: var(--orange);
+}
+header p{
+    font-size: 1.6rem;
+}
+.loginsection{
+    width: 100%;
+    margin-top: 6rem;
+}
+.logincontent{
+    width: 70%;
+}
+.logincard{
+    width: 400px;
+}
+form{
+    background-color: var(--backgroundcolor);
+    color: var(--textColor);
+}
+.formdata{
+    padding: 2rem;
+}
+.formdata label{
+    font-size: 1.6rem;
+}
+.formdata input{
+    padding: .7rem;
+    margin-top: .6rem;
+    width: 50%;
+    border-radius: 3px;
+}
+.signupbtn input{
+    padding: .7rem 2rem;
+    background-color: var(--orange);
+    color: var(--textColor);
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+a{
+    font-size: 1.4rem;
+}

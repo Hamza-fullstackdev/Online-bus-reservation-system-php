@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Federant&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    overflow-x: hidden;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+:root{
+    --backgroundcolor:black;
+    --orange: orange;
+    --textColor: white;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ticketsection{
+    width: 100%;
+    margin-top: 10rem;
+}
+.ticketcontent{
+    width: 30%;
+}
+.ticketcard{
+    background-color: var(--backgroundcolor);
+    color: var(--textColor);
+}
+header{
+    border-bottom: 1px dotted white;
+}
+.cardcontent{
+    padding: 2rem;
+}
+label{
+    font-size: 1.6rem;
+}
+.cardcontent input{
+    padding: .7rem 1rem;
+    margin-top: .5rem;
+    width: 170px;
+}
+select{
+    width: 170px;
+}
+.submitbtn{
+    text-align: center;
+}
+.submitbtn input{
+    background-color: var(--orange);
+    color: var(--textColor);
+    padding: .7rem 2rem;
+    margin-top: 3rem;
+    width: fit-content;
+}
+.cardcontent .passengers{
+    width: 120px;
+    padding: .5rem .3rem;
+}
+.availablebussessection{
+    margin-top: 5rem;
+    width: 100%;
+}
+.availablebussescontent{
+    width: 80%;
+    row-gap: 3rem;
+}
+.availablebussescard{
+    width: 320px;
+    background-color: var(--backgroundcolor);
+    color: var(--textColor);
+    border-radius: 5%;
+}
+.busimg{
+    width: 100%;
+    /* height: 250px; */
+}
+.busimg img{
+    width: 100%;
+    object-fit: cover;
+}
+.buscontent{
+    padding: .5rem 1.5rem;
+}
+.buscontent h2{
+    font-size: 2.2rem;
+    color: var(--orange);
+}
+.buscontent p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.bookbtn a{
+    margin-top: 1.5rem;
+    background-color: var(--orange);
+    color: var(--textColor);
+    padding: .7rem 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+}

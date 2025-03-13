@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Federant&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: none; */
+    outline: none;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    background-color: var(--orange);
+}
+:root{
+    --backgroundcolor:black;
+    --orange: orange;
+    --textcolor: white;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+.leftnav{
+    width: 300px;
+    height: 100vh;
+    background-color: black;
+    padding: 40px 20px;
+}
+.logo h2{
+    font-size: 2.6rem;
+    color: var(--textcolor);
+}
+.logo h2::first-letter{
+    font-family: 'Faster One', cursive;
+    font-size: 3.7rem;
+    font-weight: 500;
+    color: var(--orange);
+}
+.logo p{
+    font-size: 1.6rem;
+    color: var(--textcolor);
+}
+.leftnav nav{
+    line-height: 40px;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.leftnav nav ul li{
+    padding-left: .5rem;
+    margin-top: .5rem;
+}
+.leftnav nav ul li a{
+    color: var(--textcolor);
+    font-size: 1.8rem;
+}
+.leftnav nav ul li:hover{
+    background-color: var(--orange);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.rightmaindata{
+    width: 78%;
+    height: 100vh;
+}
+.dashboardheading{
+    text-align: center;
+    margin-top: 10rem;
+}
+.dashboardheading h1{
+    font-size: 3rem;
+}
+.dashboardheading p{
+    font-size: 1.8rem;
+}
+.dashboardpanel{
+    margin-top: 60px;
+    gap: 30px;
+}
+.dashboardpanel .box{
+    background-color: var(--backgroundcolor);
+    width: 280px;
+    color: var(--textcolor);
+    height: 280px
+}
+.boxcontent{
+    text-align: center;
+}
+.boxcontent h2{
+    font-size: 2.5rem;
+}
+.boxcontent p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    color: var(--orange);
+}
+.addfoodsection{
+    padding: 20px;
+}
+.addfoodsection form label{
+    font-size: 1.6rem;
+}
+.addfoodsection form input{
+    padding: 5px;
+    outline: none;
+}
+.addfoodsection form select{
+    width: 30%;
+    padding: .7rem;
+}
+.submitform{
+    text-align: center;
+}
+.submitform input{
+    background-color: var(--orange);
+    color: var(--textcolor);
+    border: none;
+    cursor: pointer;
+}
+.submitform button{
+    padding: .5rem 2rem;
+    background-color: var(--orange);
+    color: var(--textcolor);
+    border: none;
+    cursor: pointer;
+}
+
+.managefood{
+    margin-top: 40px;
+}
+table{
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+}
+thead tr th{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    padding: .7rem 0;
+}
+tbody tr td{
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+tbody tr td img{
+    width: 50px;
+}
+tbody tr td i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.delete{
+    color: var(--orange);
+}
+.update{
+    color: rgb(0, 255, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
